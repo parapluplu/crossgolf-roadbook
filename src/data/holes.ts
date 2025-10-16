@@ -1,3 +1,13 @@
+import bahn01_start from "@/assets/bahn01_start.jpg";
+import bahn01_ziel from "@/assets/bahn01_ziel.jpg";
+import bahn02_start from "@/assets/bahn02_start.jpg";
+import bahn02_ziel from "@/assets/bahn02_ziel.jpg";
+import bahn03_start from "@/assets/bahn03_start.jpg";
+import bahn03_ziel from "@/assets/bahn03_ziel.jpg";
+import bahn04_start from "@/assets/bahn04_start.jpg";
+import bahn04_uebersicht_ziel from "@/assets/bahn04_uebersicht_ziel.jpg";
+import bahn04_ziel from "@/assets/bahn04_ziel.jpg";
+
 export interface HoleImage {
   src: string;
   caption: string;
@@ -18,8 +28,8 @@ export const holes: Hole[] = [
     game_mode: "Individuell",
     description: "Der Ball muss rechts um die Halle herumgespielt werden. Dort ist ein Hydrant, den es zu treffen gilt.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn01_start, caption: "Abschlag" },
+      { src: bahn01_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -28,8 +38,8 @@ export const holes: Hole[] = [
     game_mode: "Scramble",
     description: "Von der Rampe muss der Ball die Straße hoch gespielt werden. Hinter der rechten Halle ist ein Streusalzbehälter. Dieser muss getroffen werden. Bleibt er Ball drin liegen -1",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn02_start, caption: "Abschlag" },
+      { src: bahn02_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -38,8 +48,8 @@ export const holes: Hole[] = [
     game_mode: "Individuell",
     description: "Die Halle muss einmal bis zum Ende gespielt werden und der Ball MUSS durch die kleine Tür gespielt werden (die Rolltore zählen nicht). Hinter der Tür ist rechts das Ziel. Der Ball muss drinnen liegen bleiben.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn03_start, caption: "Abschlag" },
+      { src: bahn03_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -48,9 +58,9 @@ export const holes: Hole[] = [
     game_mode: "Scramble",
     description: "Der Ball muss durch die markierte Türe von hinten in den Raum links neben dem Start gespielt werden. Der Zielbereich ist hinter der 'Fußleiste'. Der Ball darf NICHT auf die Leiste hoch oder in den Zielbereich dahinter bessergelegt werden.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Übersicht Ziel" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn04_start, caption: "Abschlag" },
+      { src: bahn04_uebersicht_ziel, caption: "Übersicht Ziel" },
+      { src: bahn04_ziel, caption: "Ziel" }
     ]
   },
   {
