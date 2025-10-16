@@ -1,10 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { holes } from "@/data/holes";
 import { HoleCard } from "@/components/HoleCard";
 import { HoleDetail } from "@/components/HoleDetail";
 
 const Index = () => {
   const [selectedHoleId, setSelectedHoleId] = useState<number | null>(null);
+
+  useEffect(() => {
+    holes.forEach(hole => {
+      hole.images.forEach(image => {
+        const img = new Image();
+        img.src = image.src;
+      });
+    });
+  }, []);
 
   const selectedHole = holes.find(h => h.id === selectedHoleId) || null;
   const selectedIndex = holes.findIndex(h => h.id === selectedHoleId);
