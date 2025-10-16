@@ -99,7 +99,7 @@ export const HoleDetail = ({
         </div>
 
         <div className="flex-1 overflow-y-auto p-6 space-y-6">
-          <Carousel className="w-full">
+          <Carousel key={hole.id} className="w-full">
             <CarouselContent>
               {hole.images.map((image, index) => (
                 <CarouselItem key={index}>
