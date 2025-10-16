@@ -3,7 +3,7 @@ import { Hole } from "@/data/holes";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 interface HoleDetailProps {
@@ -81,21 +81,16 @@ export const HoleDetail = ({
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
       >
-        <div className="flex items-center justify-between p-4 border-b bg-card">
-          <div className="flex items-center gap-3">
-            <div className="bg-primary text-primary-foreground font-bold text-xl px-4 py-2 rounded-full">
-              {hole.id}
-            </div>
-            <div>
-              <h2 className="font-bold text-xl text-foreground">{hole.title}</h2>
-              <Badge variant="secondary" className="mt-1">
-                {hole.game_mode}
-              </Badge>
-            </div>
+        <div className="flex items-center gap-3 p-4 border-b bg-card">
+          <div className="bg-primary text-primary-foreground font-bold text-xl px-4 py-2 rounded-full">
+            {hole.id}
           </div>
-          <Button variant="ghost" size="icon" onClick={onClose}>
-            <X className="h-5 w-5" />
-          </Button>
+          <div>
+            <h2 className="font-bold text-xl text-foreground">{hole.title}</h2>
+            <Badge variant="secondary" className="mt-1">
+              {hole.game_mode}
+            </Badge>
+          </div>
         </div>
 
         <div className="flex-1 overflow-y-auto p-6 space-y-6">

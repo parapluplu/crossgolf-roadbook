@@ -7,6 +7,16 @@ import bahn03_ziel from "@/assets/bahn03_ziel.jpg";
 import bahn04_start from "@/assets/bahn04_start.jpg";
 import bahn04_uebersicht_ziel from "@/assets/bahn04_uebersicht_ziel.jpg";
 import bahn04_ziel from "@/assets/bahn04_ziel.jpg";
+import bahn05_start from "@/assets/bahn05_start.jpg";
+import bahn05_ziel from "@/assets/bahn05_ziel.jpg";
+import bahn06_start from "@/assets/bahn06_start.jpg";
+import bahn06_ziel from "@/assets/bahn06_ziel.jpg";
+import bahn07_start from "@/assets/bahn07_start.jpg";
+import bahn07_ziel from "@/assets/bahn07_ziel.jpg";
+import bahn08_start from "@/assets/bahn08_start.jpg";
+import bahn08_ziel from "@/assets/bahn08_ziel.jpg";
+import bahn09_start from "@/assets/bahn09_start.jpg";
+import bahn09_ziel from "@/assets/bahn09_ziel.jpg";
 
 export interface HoleImage {
   src: string;
@@ -69,8 +79,8 @@ export const holes: Hole[] = [
     game_mode: "Scramble",
     description: "Vom Start muss der Ball rechts ums Eck gespielt werden. Treffen des Ziels reicht. Liegt er im Ziel gibt's -1 (Die Halle mit den Möbeln ist AUS!)",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn05_start, caption: "Abschlag" },
+      { src: bahn05_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -79,8 +89,8 @@ export const holes: Hole[] = [
     game_mode: "Scramble",
     description: "Vom Start geht's in die Parallelhalle. Dort an der 'Ausgangstüre' ist der Zielbereich. Der Ball muss hinter der Schwelle liegen bleiben.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn06_start, caption: "Abschlag" },
+      { src: bahn06_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -89,8 +99,8 @@ export const holes: Hole[] = [
     game_mode: "Scramble",
     description: "Vom Start geht's die Straße entlang und hinter der Kurve ist ein Aussenkellertreppe zu einer Türe. Der Ball muss auf dem untersten Podest liegen.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn07_start, caption: "Abschlag" },
+      { src: bahn07_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -99,8 +109,8 @@ export const holes: Hole[] = [
     game_mode: "Individuell",
     description: "Vom Start geht bis zur vor den Tunnel. Rechts ist eine Platte. Der Ball muss in der auf der Fläche liegen bleiben.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn08_start, caption: "Abschlag" },
+      { src: bahn08_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -109,8 +119,8 @@ export const holes: Hole[] = [
     game_mode: "Scramble",
     description: "In der Nähe des Einganstors ist der Start und der Ball muss durch den Tunnel gespielt werden. Dahinter links um die Ecke und auf der rechten Seite steht eine Bank. Die komplette Bank ist das Ziel.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn09_start, caption: "Abschlag" },
+      { src: bahn09_ziel, caption: "Ziel" }
     ]
   },
   {
