@@ -78,6 +78,7 @@ export const HoleDetail = ({
                         src={image.src} 
                         alt={image.caption}
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                     </div>
                     <p className="text-sm text-muted-foreground text-center font-medium">
