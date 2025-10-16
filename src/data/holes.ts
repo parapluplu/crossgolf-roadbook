@@ -53,7 +53,7 @@ export const holes: Hole[] = [
     id: 2,
     title: "Rampensau",
     game_mode: "Scramble",
-    description: "Von der Rampe den Ball Richtung Straße abschlagen. Hinter der rechten Halle ist ein Streusalzbehälter. Treffer des Behälters zählt. Bleibt er Ball drin liegen -1",
+    description: "Von der Rampe den Ball Richtung Straße abschlagen. Hinter der rechten Halle ist ein Streusalzbehälter. Treffer des Behälters zählt. Bleibt der Ball drin liegen -1",
     images: [
       { src: bahn02_start, caption: "Abschlag" },
       { src: bahn02_ziel, caption: "Ziel" }
@@ -124,7 +124,7 @@ export const holes: Hole[] = [
     id: 9,
     title: "Tunnel of Love",
     game_mode: "Scramble",
-    description: "In der Nähe des Einganstors ist der Start und der Ball muss durch den Tunnel gespielt werden. Dahinter links um die Ecke und auf der rechten Seite steht eine Bank. Die komplette Bank ist das Ziel.",
+    description: "In der Nähe des Einganstors ist der Start und der Ball muss durch den Tunnel gespielt werden. Dahinter links um die Ecke und auf der rechten Seite steht eine Bank. Da in der Nähe ist ein markierstes Loch im Boden. Da muss der Ball rein.",
     images: [
       { src: bahn09_start, caption: "Abschlag" },
       { src: bahn09_ziel, caption: "Ziel" }
