@@ -1,0 +1,9 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="512" height="512" rx="96" fill="#13151a"/>
+    <g transform="translate(0, 20)">
+        <path d="M106.792 174.042L148.583 316.5H363.417L405.208 174.042L315.5 225.5L256 121L196.5 225.5L106.792 174.042Z" fill="white"/>
+        <text x="256" y="410" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="128" font-family="system-ui, sans-serif" font-weight="bold">
+            IX
+        </text>
+    </g>
+</svg>

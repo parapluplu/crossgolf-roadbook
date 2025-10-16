@@ -17,6 +17,13 @@ import bahn08_start from "@/assets/bahn08_start.jpg";
 import bahn08_ziel from "@/assets/bahn08_ziel.jpg";
 import bahn09_start from "@/assets/bahn09_start.jpg";
 import bahn09_ziel from "@/assets/bahn09_ziel.jpg";
+import bahn10_start from '@/assets/bahn10_start.jpg';
+import bahn10_ziel from '@/assets/bahn10_ziel.jpg';
+import bahn11_start from '@/assets/bahn11_start.jpg';
+import bahn11_ziel from '@/assets/bahn11_ziel.jpg';
+import bahn12_start from '@/assets/bahn12_start.jpg';
+import bahn12_ziel from '@/assets/bahn12_ziel.jpg';
+import bahn13 from '@/assets/bahn13.jpg';
 
 export interface HoleImage {
   src: string;
@@ -129,8 +136,8 @@ export const holes: Hole[] = [
     game_mode: "Scramble",
     description: "Vom Start geht's Richtung Halleneingang. Dort ist das Ziel. Es muss getroffen werden.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn10_start, caption: "Abschlag" },
+      { src: bahn10_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -139,8 +146,8 @@ export const holes: Hole[] = [
     game_mode: "Scramble",
     description: "Vom Start geht es halblinks hinter die große 'Säule' auf deren Rückseite Türen sind. Die untere Türe gilt als getroffen, die obere linke Tür als -1",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn11_start, caption: "Abschlag" },
+      { src: bahn11_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -149,8 +156,8 @@ export const holes: Hole[] = [
     game_mode: "Scramble",
     description: "Am Ende der Halle geht es einmal quer von links nach rechts. In dem 'Häuschen' ist die Zielzone die getroffen werden muss. Der Ball muss auf der Fläche liegen bleiben.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" },
-      { src: "/api/placeholder/800/600", caption: "Ziel" }
+      { src: bahn12_start, caption: "Abschlag" },
+      { src: bahn12_ziel, caption: "Ziel" }
     ]
   },
   {
@@ -159,7 +166,7 @@ export const holes: Hole[] = [
     game_mode: "Individuell",
     description: "3 mal abschlagen. Das getroffene Ziel mit der niedrigsten Wertung wird als Score eingetragen.",
     images: [
-      { src: "/api/placeholder/800/600", caption: "Abschlag" }
+      { src: bahn13, caption: "Abschlag und Ziele" }
     ]
   }
 ];

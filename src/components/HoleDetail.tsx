@@ -93,6 +93,11 @@ export const HoleDetail = ({
           </div>
         </div>
 
+        <div className="space-y-2">
+          <h3 className="font-semibold text-lg text-foreground">Beschreibung</h3>
+          <p className="text-foreground leading-relaxed">{hole.description}</p>
+        </div>
+
         <div className="flex-1 overflow-y-auto p-6 space-y-6">
           <Carousel key={hole.id} className="w-full">
             <CarouselContent>
@@ -120,11 +125,6 @@ export const HoleDetail = ({
               </>
             )}
           </Carousel>
-
-          <div className="space-y-2">
-            <h3 className="font-semibold text-lg text-foreground">Beschreibung</h3>
-            <p className="text-foreground leading-relaxed">{hole.description}</p>
-          </div>
         </div>
 
         <div className="flex gap-2 p-4 border-t bg-card">
