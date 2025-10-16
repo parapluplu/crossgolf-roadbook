@@ -2,28 +2,28 @@ import bahn01_start from "@/assets/bahn01_start.webp";
 import bahn01_ziel from "@/assets/bahn01_ziel.webp";
 import bahn02_start from "@/assets/bahn02_start.webp";
 import bahn02_ziel from "@/assets/bahn02_ziel.webp";
-import bahn03_start from "@/assets/bahn03_start.jpg";
-import bahn03_ziel from "@/assets/bahn03_ziel.jpg";
-import bahn04_start from "@/assets/bahn04_start.jpg";
-import bahn04_uebersicht_ziel from "@/assets/bahn04_uebersicht_ziel.jpg";
-import bahn04_ziel from "@/assets/bahn04_ziel.jpg";
-import bahn05_start from "@/assets/bahn05_start.jpg";
-import bahn05_ziel from "@/assets/bahn05_ziel.jpg";
-import bahn06_start from "@/assets/bahn06_start.jpg";
-import bahn06_ziel from "@/assets/bahn06_ziel.jpg";
-import bahn07_start from "@/assets/bahn07_start.jpg";
-import bahn07_ziel from "@/assets/bahn07_ziel.jpg";
-import bahn08_start from "@/assets/bahn08_start.jpg";
-import bahn08_ziel from "@/assets/bahn08_ziel.jpg";
-import bahn09_start from "@/assets/bahn09_start.jpg";
-import bahn09_ziel from "@/assets/bahn09_ziel.jpg";
-import bahn10_start from '@/assets/bahn10_start.jpg';
-import bahn10_ziel from '@/assets/bahn10_ziel.jpg';
-import bahn11_start from '@/assets/bahn11_start.jpg';
-import bahn11_ziel from '@/assets/bahn11_ziel.jpg';
-import bahn12_start from '@/assets/bahn12_start.jpg';
-import bahn12_ziel from '@/assets/bahn12_ziel.jpg';
-import bahn13 from '@/assets/bahn13.jpg';
+import bahn03_start from "@/assets/bahn03_start.webp";
+import bahn03_ziel from "@/assets/bahn03_ziel.webp";
+import bahn04_start from "@/assets/bahn04_start.webp";
+import bahn04_uebersicht_ziel from "@/assets/bahn04_uebersicht_ziel.webp";
+import bahn04_ziel from "@/assets/bahn04_ziel.webp";
+import bahn05_start from "@/assets/bahn05_start.webp";
+import bahn05_ziel from "@/assets/bahn05_ziel.webp";
+import bahn06_start from "@/assets/bahn06_start.webp";
+import bahn06_ziel from "@/assets/bahn06_ziel.webp";
+import bahn07_start from "@/assets/bahn07_start.webp";
+import bahn07_ziel from "@/assets/bahn07_ziel.webp";
+import bahn08_start from "@/assets/bahn08_start.webp";
+import bahn08_ziel from "@/assets/bahn08_ziel.webp";
+import bahn09_start from "@/assets/bahn09_start.webp";
+import bahn09_ziel from "@/assets/bahn09_ziel.webp";
+import bahn10_start from '@/assets/bahn10_start.webp';
+import bahn10_ziel from '@/assets/bahn10_ziel.webp';
+import bahn11_start from '@/assets/bahn11_start.webp';
+import bahn11_ziel from '@/assets/bahn11_ziel.webp';
+import bahn12_start from '@/assets/bahn12_start.webp';
+import bahn12_ziel from '@/assets/bahn12_ziel.webp';
+import bahn13 from '@/assets/bahn13.webp';
 
 export interface HoleImage {
   src: string;
@@ -43,7 +43,7 @@ export const holes: Hole[] = [
     id: 1,
     title: "Balls on Fire",
     game_mode: "Individuell",
-    description: "Der Ball muss rechts um die Halle herumgespielt werden. Dort ist ein Hydrant, den es zu treffen gilt.",
+    description: "Hinter der Halle ist das Ziel. Dort ist ein Hydrant, den es zu treffen gilt.",
     images: [
       { src: bahn01_start, caption: "Abschlag" },
       { src: bahn01_ziel, caption: "Ziel" }
@@ -53,7 +53,7 @@ export const holes: Hole[] = [
     id: 2,
     title: "Rampensau",
     game_mode: "Scramble",
-    description: "Von der Rampe muss der Ball die Straße hoch gespielt werden. Hinter der rechten Halle ist ein Streusalzbehälter. Dieser muss getroffen werden. Bleibt er Ball drin liegen -1",
+    description: "Von der Rampe den Ball Richtung Straße abschlagen. Hinter der rechten Halle ist ein Streusalzbehälter. Treffer des Behälters zählt. Bleibt er Ball drin liegen -1",
     images: [
       { src: bahn02_start, caption: "Abschlag" },
       { src: bahn02_ziel, caption: "Ziel" }
@@ -63,7 +63,7 @@ export const holes: Hole[] = [
     id: 3,
     title: "VAR: Das Tor zählt nicht!",
     game_mode: "Individuell",
-    description: "Die Halle muss einmal bis zum Ende gespielt werden und der Ball MUSS durch die kleine Tür gespielt werden (die Rolltore zählen nicht). Hinter der Tür ist rechts das Ziel. Der Ball muss drinnen liegen bleiben.",
+    description: "Bis zum Ende der Halle spielen und dort MUSS der Ball durch die kleine Tür gespielt werden (die Rolltore zählen nicht). Hinter der Tür ist rechts das Ziel. Der Ball muss drinnen liegen bleiben.",
     images: [
       { src: bahn03_start, caption: "Abschlag" },
       { src: bahn03_ziel, caption: "Ziel" }
@@ -73,7 +73,7 @@ export const holes: Hole[] = [
     id: 4,
     title: "Hintertürchen",
     game_mode: "Scramble",
-    description: "Der Ball muss durch die markierte Türe von hinten in den Raum links neben dem Start gespielt werden. Der Zielbereich ist hinter der 'Fußleiste'. Der Ball darf NICHT auf die Leiste hoch oder in den Zielbereich dahinter bessergelegt werden.",
+    description: "Der Ball muss durch die markierte Türe von hinten in den Raum links neben dem Start gespielt werden. Der Zielbereich ist hinter der 'Fußleiste'. ACHTUNG: Der Ball darf NICHT auf die Leiste hoch oder in den Zielbereich dahinter bessergelegt werden.",
     images: [
       { src: bahn04_start, caption: "Abschlag" },
       { src: bahn04_uebersicht_ziel, caption: "Übersicht Ziel" },
@@ -104,7 +104,7 @@ export const holes: Hole[] = [
     id: 7,
     title: "Von hier an bergab!",
     game_mode: "Scramble",
-    description: "Vom Start geht's die Straße entlang und hinter der Kurve ist ein Aussenkellertreppe zu einer Türe. Der Ball muss auf dem untersten Podest liegen.",
+    description: "Vom Start geht's die Straße entlang und hinter der Kurve ist ein Außenkellertreppe zu einer Türe. Der Ball muss auf dem untersten Podest liegen bleiben.",
     images: [
       { src: bahn07_start, caption: "Abschlag" },
       { src: bahn07_ziel, caption: "Ziel" }
@@ -114,7 +114,7 @@ export const holes: Hole[] = [
     id: 8,
     title: "Conti Carl Allee",
     game_mode: "Individuell",
-    description: "Vom Start geht bis zur vor den Tunnel. Rechts ist eine Platte. Der Ball muss in der auf der Fläche liegen bleiben.",
+    description: "Vom Start geht es bis zur vor den Tunnel. Rechts ist eine Platte. Der Ball muss auf der Fläche liegen bleiben.",
     images: [
       { src: bahn08_start, caption: "Abschlag" },
       { src: bahn08_ziel, caption: "Ziel" }
@@ -134,7 +134,7 @@ export const holes: Hole[] = [
     id: 10,
     title: "Zicke Zacke Golf ist kacke",
     game_mode: "Scramble",
-    description: "Vom Start geht's Richtung Halleneingang. Dort ist das Ziel. Es muss getroffen werden.",
+    description: "Vom Start geht's Richtung Halleneingang. Die Tür ist das Ziel.",
     images: [
       { src: bahn10_start, caption: "Abschlag" },
       { src: bahn10_ziel, caption: "Ziel" }

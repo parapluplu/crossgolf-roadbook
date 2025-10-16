@@ -34,7 +34,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-10 bg-gradient-hero text-primary-foreground shadow-md">
         <div className="container mx-auto px-4 py-6">
-          <h1 className="text-3xl font-bold text-center">Crossgolf Roadbook</h1>
+          <h1 className="text-3xl font-bold text-center">Krosser Karl IX - Roadbook</h1>
           <p className="text-center text-primary-foreground/90 mt-1">13 Bahnen</p>
         </div>
       </header>
