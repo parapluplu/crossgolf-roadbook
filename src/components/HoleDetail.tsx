@@ -46,10 +46,10 @@ export const HoleDetail = ({
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
 
-    if (isLeftSwipe && hasNext) {
+    if (isLeftSwipe) {
       onNext();
     }
-    if (isRightSwipe && hasPrevious) {
+    if (isRightSwipe) {
       onPrevious();
     }
   };

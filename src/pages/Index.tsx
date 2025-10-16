@@ -19,15 +19,15 @@ const Index = () => {
   const selectedIndex = holes.findIndex(h => h.id === selectedHoleId);
 
   const handlePrevious = () => {
-    if (selectedIndex > 0) {
-      setSelectedHoleId(holes[selectedIndex - 1].id);
-    }
+    if (selectedIndex === -1) return;
+    const newIndex = (selectedIndex - 1 + holes.length) % holes.length;
+    setSelectedHoleId(holes[newIndex].id);
   };
 
   const handleNext = () => {
-    if (selectedIndex < holes.length - 1) {
-      setSelectedHoleId(holes[selectedIndex + 1].id);
-    }
+    if (selectedIndex === -1) return;
+    const newIndex = (selectedIndex + 1) % holes.length;
+    setSelectedHoleId(holes[newIndex].id);
   };
 
   return (
@@ -57,8 +57,8 @@ const Index = () => {
         onClose={() => setSelectedHoleId(null)}
         onPrevious={handlePrevious}
         onNext={handleNext}
-        hasPrevious={selectedIndex > 0}
-        hasNext={selectedIndex < holes.length - 1}
+        hasPrevious={holes.length > 1}
+        hasNext={holes.length > 1}
       />
     </div>
   );

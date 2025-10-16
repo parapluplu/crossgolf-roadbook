@@ -18,7 +18,6 @@ export const HoleCard = ({ hole, onClick }: HoleCardProps) => {
           src={hole.images[0].src} 
           alt={hole.title}
           className="w-full h-full object-cover transition-transform hover:scale-105"
-          loading="lazy"
         />
         <div className="absolute top-2 left-2">
           <div className="bg-primary text-primary-foreground font-bold text-lg px-3 py-1 rounded-full">
