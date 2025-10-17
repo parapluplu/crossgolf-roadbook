@@ -135,7 +135,7 @@ export const holes: Hole[] = [
     id: 10,
     title: "Zicke Zacke Golf ist kacke",
     game_mode: "Scramble",
-    description: "Vom Start geht's Richtung Halleneingang. Die Tür ist das Ziel.",
+    description: "Vom Start geht's Richtung Halleneingang. Durch die offene Tür spielen ist das Ziel.",
     images: [
       { src: bahn10_start, caption: "Abschlag" },
       { src: bahn10_ziel, caption: "Ziel" }
