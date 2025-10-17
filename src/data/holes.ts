@@ -24,6 +24,7 @@ import bahn11_ziel from '@/assets/bahn11_ziel.webp';
 import bahn12_start from '@/assets/bahn12_start.webp';
 import bahn12_ziel from '@/assets/bahn12_ziel.webp';
 import bahn13 from '@/assets/bahn13.webp';
+import bahn13_michalsreifen from '@/assets/bahn13_michaalsreifen.webp';
 
 export interface HoleImage {
   src: string;
@@ -162,11 +163,12 @@ export const holes: Hole[] = [
   },
   {
     id: 13,
-    title: "??? Bonus ???",
+    title: "Reifception",
     game_mode: "Individuell",
-    description: "Beschreibung kommt noch ...",
+    description: "Jeder hat 3 Versuche. Für jeden durchgespielten Reifen gibt es einen Punkt. Bei dieser Bahn sind viele Punkte gut. Die meisten Punkte gewinnen.",
     images: [
-      { src: bahn13, caption: "Abschlag und Ziele" }
+      { src: bahn13, caption: "Abschlag und Ziele" },
+      { src: bahn13_michalsreifen, caption: "Micha als Beispielreifen" }
     ]
   }
 ];
