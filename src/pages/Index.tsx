@@ -35,7 +35,7 @@ const Index = () => {
       <header className="sticky top-0 z-10 bg-gradient-hero text-primary-foreground shadow-md">
         <div className="container mx-auto px-4 py-6">
           <h1 className="text-3xl font-bold text-center">Krosser Karl IX - Roadbook</h1>
-          <p className="text-center mt-1"><a href="https://www.google.com/maps/d/edit?mid=1X68aQAtVFoDazYB1jET5jOKv-UgDFKo&usp=sharing" className="underline hover:text-blue-600 dark:hover:text-blue-400" target="_blank">Google Maps Bahnenübersicht</a></p>
+          <p className="text-center mt-1"><a href="https://www.google.com/maps/d/viewer?mid=1X68aQAtVFoDazYB1jET5jOKv-UgDFKo&usp=sharing" className="underline hover:text-blue-600 dark:hover:text-blue-400" target="_blank">Google Maps Bahnenübersicht</a></p>
           <p className="text-center mt-1"><a href="https://drive.usercontent.google.com/download?id=1or9aaxn1gqz4mEtUjl_RsVMjGE5TrnEo&export=download" className="underline hover:text-blue-600 dark:hover:text-blue-400" target="_blank">Regeln</a></p>
         </div>
       </header>
