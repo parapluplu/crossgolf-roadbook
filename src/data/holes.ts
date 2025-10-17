@@ -42,7 +42,7 @@ export const holes: Hole[] = [
   {
     id: 1,
     title: "Balls on Fire",
-    game_mode: "Individuell",
+    game_mode: "Scramble",
     description: "Hinter der Halle ist das Ziel. Dort ist ein Hydrant, den es zu treffen gilt.",
     images: [
       { src: bahn01_start, caption: "Abschlag" },
@@ -62,7 +62,7 @@ export const holes: Hole[] = [
   {
     id: 3,
     title: "VAR: Das Tor zählt nicht!",
-    game_mode: "Individuell",
+    game_mode: "Scramble",
     description: "Bis zum Ende der Halle spielen und dort MUSS der Ball durch die kleine Tür gespielt werden (die Rolltore zählen nicht). Hinter der Tür ist rechts das Ziel. Der Ball muss drinnen liegen bleiben.",
     images: [
       { src: bahn03_start, caption: "Abschlag" },
@@ -113,7 +113,7 @@ export const holes: Hole[] = [
   {
     id: 8,
     title: "Conti Carl Allee",
-    game_mode: "Individuell",
+    game_mode: "Scramble",
     description: "Vom Start geht es bis zur vor den Tunnel. Rechts ist eine Platte. Der Ball muss auf der Fläche liegen bleiben.",
     images: [
       { src: bahn08_start, caption: "Abschlag" },
@@ -162,9 +162,9 @@ export const holes: Hole[] = [
   },
   {
     id: 13,
-    title: "Flipper",
+    title: "??? Bonus ???",
     game_mode: "Individuell",
-    description: "3 mal abschlagen. Das getroffene Ziel mit der niedrigsten Wertung wird als Score eingetragen.",
+    description: "Beschreibung kommt noch ...",
     images: [
       { src: bahn13, caption: "Abschlag und Ziele" }
     ]
