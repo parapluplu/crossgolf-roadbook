@@ -165,7 +165,7 @@ export const holes: Hole[] = [
     id: 13,
     title: "Contis Rache",
     game_mode: "Individuell",
-    description: "Jeder hat 4 Versuche. Fürs durchspielen der Reifen gibt es Punkte. Der vorderste Reifen gibt einen Punkt. Der mittlere Reifen gibt 2 Punkte und der hinterste Reifen gibt 3 Punkte. Bei dieser Bahn sind viele Punkte gut. Die meisten Punkte gewinnen.",
+    description: "Jeder hat 4 Versuche. Fürs durchspielen der Reifen gibt es Punkte. Der vorderste Reifen gibt einen Punkt. Der mittlere Reifen gibt 2 Punkte und der hinterste Reifen gibt 3 Punkte. Alle Punkte werden summiert. Bei dieser Bahn sind viele Punkte gut. Die meisten Punkte gewinnen.",
     images: [
       { src: bahn13, caption: "Abschlag und Ziele" },
       { src: bahn13_michalsreifen, caption: "Micha als Beispielreifen" }
